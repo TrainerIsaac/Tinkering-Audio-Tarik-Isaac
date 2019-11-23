@@ -8,7 +8,7 @@ Type Here
 
 ### Tarik:
 
-Type Here
+User Interface Audio (Non-Diegetic Audio)
 
 # Progress:
 
@@ -18,7 +18,7 @@ Type Here
 
 ### Tarik:
 
-Type Here
+Created a project folder.
 
 # Licensing:
 
