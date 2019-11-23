@@ -18,9 +18,9 @@ Type Here
 
 ### Tarik:
 
-Created a project folder.
-Added buttons.
-Added audio when button is clicked
+Created a project folder.  
+Added buttons.  
+Added audio when button is clicked.  
 
 #### TODO
 * Randomize tone of button click sound.
