@@ -19,6 +19,12 @@ Type Here
 ### Tarik:
 
 Created a project folder.
+Added buttons.
+Added audio when button is clicked
+
+#### TODO
+* Randomize tone of button click sound.
+* Play a sound when mouse moved over button.
 
 # Licensing:
 
