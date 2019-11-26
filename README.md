@@ -4,7 +4,7 @@
 
 ### Isaac:
 
-Type Here
+Contract #3 - Melody Generation (Non-Diegetic Audio)
 
 ### Tarik:
 
