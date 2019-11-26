@@ -28,11 +28,12 @@ created script that plays randomized audio
 
 Created a project folder.  
 Added buttons.  
-Added audio when button is clicked.  
+Added audio when button is clicked.
+Audio is now somewhat randomly generated and sounds horrible.
 
 #### TODO
-* Randomize tone of button click sound.
-* Play a sound when mouse moved over button.
+* Make tone sound nicer.
+* Fix it so that it works in editor not just in build.
 
 # Licensing:
 
