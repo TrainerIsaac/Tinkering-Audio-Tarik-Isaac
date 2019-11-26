@@ -3,15 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+
 public class AudioGenPlay : MonoBehaviour
 {
+    //TODO:
+    //* Make it work
+    //* Add comments
+
+    void Start()
+    {
+
+    }
 
     public void PlayOnClick()
     {
         AudioSource audio = GetComponent<AudioSource>();
         System.Random rnd = new System.Random();
         int sampleFreq = 44100;
-        float frequency = rnd.Next(440, 660);
+        float frequency = rnd.Next(400, 440);
 
         float[] samples = new float[44100];
 
