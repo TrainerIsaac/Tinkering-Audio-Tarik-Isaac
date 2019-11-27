@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/UI_For_Audio.unity
-  isLoaded: 1
-  isActive: 1
