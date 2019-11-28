@@ -293,7 +293,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1715047028}
-  tune: {fileID: 8300000, guid: 94cc0d9830ff01d428401bd010a92444, type: 3}
+  tune: {fileID: 8300000, guid: b493980c57836594d8af5c53c636e4a7, type: 3}
 --- !u!4 &1715047030
 Transform:
   m_ObjectHideFlags: 0
