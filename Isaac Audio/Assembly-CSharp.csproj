@@ -53,8 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AudioTest.cs" />
      <Compile Include="Assets\AudioTinker.cs" />
+     <Compile Include="Assets\Beat.cs" />
+     <Compile Include="Assets\RandomSounds.cs" />
      <Compile Include="Assets\SaveWavUtil.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/isaac/OneDrive - Falmouth University/Uni Year 1/Comp120/Tinkering Audio/Tinkering-Audio-Tarik-Isaac/Isaac Audio/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
