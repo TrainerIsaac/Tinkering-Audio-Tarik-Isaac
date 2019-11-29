@@ -32,14 +32,16 @@ Get a note to play much quicker that matches with the tempo. Make sure these not
 
 ### Tarik:
 
+#### Done
 Created a project folder.  
 Added buttons.  
 Added audio when button is clicked.
-Audio is now somewhat randomly generated and sounds horrible.
+Audio is randomly generated within a range.
+A sound plays when you hover over a button
+Different sounds for success or failure when clicking on a button.
 
 #### TODO
-* Make tone sound nicer.
-* Fix it so that it works in editor not just in build.
+* Finish commenting.
 
 # Licensing:
 
