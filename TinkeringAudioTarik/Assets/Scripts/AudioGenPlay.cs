@@ -7,26 +7,24 @@ using System;
 public class AudioGenPlay : MonoBehaviour
 {
     //TODO:
-    //* Make it work
     //* Add comments
 
-    void Start()
-    {
+    
+    public float ErrFreq;
+    public float SuccFreq;
 
-    }
-
-    public void PlayOnClick()
+    // Play an error sound.
+    public void PlayError()
     {
+        ErrFreq = new System.Random().Next(300, 330);
         AudioSource audio = GetComponent<AudioSource>();
-        System.Random rnd = new System.Random();
-        int sampleFreq = 44100;
-        float frequency = rnd.Next(400, 440);
 
-        float[] samples = new float[44100];
+        int sampleFreq = 44100;
+        float[] samples = new float[11025];
 
         for (int i = 0; i < samples.Length; i++)
         {
-            samples[i] = Mathf.Repeat(i * frequency / sampleFreq, 1) * 2f - 1f;
+            samples[i] = Mathf.Repeat(i * ErrFreq / sampleFreq, 1) * 2f - 1f;
         }
 
         AudioClip audPlay = AudioClip.Create("Test", samples.Length, 1, sampleFreq, false);
@@ -34,7 +32,29 @@ public class AudioGenPlay : MonoBehaviour
 
         audio.clip = audPlay;
 
-        audio.PlayOneShot(audPlay);
+        audio.Play();
+    }
+
+    // Play a seccess sound.
+    public void PlaySuccess()
+    {
+        SuccFreq = new System.Random().Next(440, 550);
+        AudioSource audio = GetComponent<AudioSource>();
+
+        int sampleFreq = 44100;
+        float[] samples = new float[11025];
+
+        for (int i = 0; i < samples.Length; i++)
+        {
+            samples[i] = Mathf.PingPong(i * 2f * SuccFreq / sampleFreq, 1) * 2f - 1f;
+        }
+
+        AudioClip audPlay = AudioClip.Create("Test", samples.Length, 1, sampleFreq, false);
+        audPlay.SetData(samples, 0);
+
+        audio.clip = audPlay;
+
+        audio.Play();
     }
 
 }
