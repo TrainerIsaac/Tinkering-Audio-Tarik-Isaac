@@ -1746,7 +1746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1330849293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2059,6 +2059,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 362ee34fe6347544096af9c9efe6018e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ErrRangeMin: 300
+  ErrRangeMax: 330
+  SuccRangeMin: 440
+  SuccRangeMax: 500
   ErrFreq: 391
   SuccFreq: 585
 --- !u!4 &1526963112

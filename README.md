@@ -39,9 +39,10 @@ Added audio when button is clicked.
 Audio is randomly generated within a range.
 A sound plays when you hover over a button
 Different sounds for success or failure when clicking on a button.
+Commented code.
 
 #### TODO
-* Finish commenting.
+
 
 # Licensing:
 
