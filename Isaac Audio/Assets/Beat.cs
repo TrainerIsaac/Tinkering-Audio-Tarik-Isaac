@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using System;
 
 public class Beat : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip beat;
+    public AudioClip stitch;
     private int counter = 0;
     private System.Random random = new System.Random();
     private int tempo;
@@ -20,7 +22,6 @@ public class Beat : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         tempo = (random.Next(50, 60)); 
         audioSource.pitch = audioSource.pitch * pitchChange; //Multiplies frequency by pitchchange value
-
     }
 
 void Update()
@@ -42,8 +43,9 @@ void Update()
                 PauseThenPlaySound();
                 StopCoroutine(PauseThenPlaySound());
                 audioSource.pitch = audioSource.pitch / (pitchChange / 2); //the current note is lowered by half a note to counteract the earlier pitch raise
-            }
 
+            }
+            RecordAudio.Save("Sound", beat);
         }
     }
 
