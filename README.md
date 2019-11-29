@@ -14,11 +14,16 @@ User Interface Audio (Non-Diegetic Audio)
 
 ### Isaac:
 
-Added base unity project
-created script that plays randomized audio
+Added base unity project.
+
+created script that plays randomized audio.
+
 Play 4 harmonized notes at the same time, at a random pitch and tempo - change the clap to a harmony, randomize the pitch. Stretch goal randomize the sound used.
+
 Get a note to play seperate from the tempo a random amount of times between beats.
-Get a note to play more rarely, every couple of bars, then a seperate note playing every third bar
+
+Get a note to play more rarely, every couple of bars, then a seperate note playing every third bar.
+
 Get a note to play much quicker that matches with the tempo. Make sure these notes are random but still sound good with the chosen pitch. Ensure there's a chance no note will play sometimes.
 
 #### TODO 
