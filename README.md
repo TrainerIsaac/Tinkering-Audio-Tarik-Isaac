@@ -8,7 +8,7 @@ Contract #3 - Melody Generation (Non-Diegetic Audio)
 
 ### Tarik:
 
-User Interface Audio (Non-Diegetic Audio)
+Contract #4 - User Interface Audio (Non-Diegetic Audio)
 
 # Progress:
 
